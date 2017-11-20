@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestList duration="HH:MM:SS" iterations="1" stopOnFail="0">
+  <test name="IpmiOverLanOrKcsStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="ConcurrentStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="BmcMeStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="AddSelClearSelStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="AcPowerCycleStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="BmcResetStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="DcPowerCycleStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="MixedTrafficStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="IpmiOverLanOrKcsConcurrentStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="TemperatureAndPowerStabilityStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="SensorThresholdStressTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="SensorReadingStressTest" delay="0" iterations="1" stopOnFail="0"/>
+</TestList>
