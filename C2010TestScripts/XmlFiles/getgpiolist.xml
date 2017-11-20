@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+GpioList XML defines expected values for GPIO Pin Direction and GPIO Pin Value 
+for each GPIO Pin Number when using IPMI command "Get GPIO".
+
+Values for number, direction, and value must be in hex format and only one single byte.
+Values cannot have prepending '0x' and appending 'h'.  
+For example, values for "0x00" or "0x01" must be in the format "00" and "01", respectively.
+-->
+<GpioList>
+
+  <!-- A0-A7 -->
+  <gpio number="00" direction="01" value="01"/>
+  <gpio number="01" direction="01" value="x"/>
+  <gpio number="02" direction="00" value="x"/>
+  <gpio number="03" direction="00" value="x"/>
+  <gpio number="04" direction="00" value="x"/>
+  <gpio number="05" direction="00" value="x"/>
+  <gpio number="06" direction="00" value="x"/>
+  <gpio number="07" direction="00" value="x"/>
+
+  <!-- B0-B7 -->
+  <gpio number="08" direction="01" value="x"/>
+  <gpio number="09" direction="00" value="01"/>
+  <gpio number="0A" direction="00" value="x"/>
+  <gpio number="0B" direction="01" value="01"/>
+  <gpio number="0C" direction="00" value="x"/>
+  <gpio number="0D" direction="00" value="x"/>
+  <gpio number="0E" direction="00" value="x"/>
+  <gpio number="0F" direction="00" value="x"/>
+
+  <!-- C0-C7 -->
+  <gpio number="10" direction="01" value="00"/>
+  <gpio number="11" direction="00" value="x"/>
+  <gpio number="12" direction="00" value="x"/>
+  <gpio number="13" direction="01" value="01"/>
+  <gpio number="14" direction="00" value="x"/>
+  <gpio number="15" direction="00" value="x"/>
+  <gpio number="16" direction="00" value="x"/>
+  <gpio number="17" direction="00" value="x"/>
+
+  <!-- D0-D2; D4-D7 -->
+  <gpio number="18" direction="00" value="x"/>
+  <gpio number="19" direction="00" value="x"/>
+  <gpio number="1A" direction="00" value="x"/>
+  <gpio number="1C" direction="00" value="x"/>
+  <gpio number="1D" direction="01" value="x"/>
+  <gpio number="1E" direction="00" value="x"/>
+  <gpio number="1F" direction="00" value="x"/>
+
+  <!-- E0-E7 -->
+  <gpio number="20" direction="00" value="x"/>
+  <gpio number="21" direction="00" value="x"/>
+  <gpio number="22" direction="00" value="x"/>
+  <gpio number="23" direction="00" value="x"/>
+  <gpio number="24" direction="00" value="x"/>
+  <gpio number="25" direction="00" value="x"/>
+  <gpio number="26" direction="00" value="x"/>
+  <gpio number="27" direction="01" value="x"/>
+
+  <!-- F0-F7 -->
+  <gpio number="28" direction="00" value="x"/>
+  <gpio number="29" direction="00" value="x"/>
+  <gpio number="2A" direction="00" value="x"/>
+  <gpio number="2B" direction="00" value="x"/>
+  <gpio number="2C" direction="00" value="x"/>
+  <gpio number="2D" direction="01" value="01"/>
+  <gpio number="2E" direction="01" value="01"/>
+  <gpio number="2F" direction="00" value="x"/>
+
+  <!-- G0-G7 -->
+  <gpio number="30" direction="01" value="00"/>
+  <gpio number="31" direction="00" value="x"/>
+  <gpio number="32" direction="00" value="x"/>
+  <gpio number="33" direction="00" value="x"/>
+  <gpio number="34" direction="01" value="x"/>
+  <gpio number="35" direction="00" value="x"/>
+  <gpio number="36" direction="00" value="x"/>
+  <gpio number="37" direction="00" value="x"/>
+
+  <!-- H0-H7 -->
+  <gpio number="38" direction="00" value="x"/>
+  <gpio number="39" direction="00" value="x"/>
+  <gpio number="3A" direction="00" value="x"/>
+  <gpio number="3B" direction="00" value="x"/>
+  <gpio number="3C" direction="00" value="x"/>
+  <gpio number="3D" direction="00" value="x"/>
+  <gpio number="3E" direction="00" value="x"/>
+  <gpio number="3F" direction="00" value="x"/>
+
+  <!-- I0-I7 -->
+  <gpio number="40" direction="00" value="x"/>
+  <gpio number="41" direction="00" value="x"/>
+  <gpio number="42" direction="00" value="x"/>
+  <gpio number="43" direction="00" value="x"/>
+  <gpio number="44" direction="00" value="x"/>
+  <gpio number="45" direction="00" value="x"/>
+  <gpio number="46" direction="00" value="x"/>
+  <gpio number="47" direction="00" value="x"/>
+
+  <!-- J0-J7 -->
+  <gpio number="48" direction="00" value="x"/>
+  <gpio number="49" direction="01" value="01"/>
+  <gpio number="4A" direction="01" value="01"/>
+  <gpio number="4B" direction="01" value="01"/>
+  <gpio number="4C" direction="00" value="x"/>
+  <gpio number="4D" direction="00" value="x"/>
+  <gpio number="4E" direction="00" value="x"/>
+  <gpio number="4F" direction="00" value="x"/>
+
+  <!-- K0-K7 -->
+  <gpio number="50" direction="00" value="x"/>
+  <gpio number="51" direction="00" value="x"/>
+  <gpio number="52" direction="00" value="x"/>
+  <gpio number="53" direction="00" value="x"/>
+  <gpio number="54" direction="00" value="x"/>
+  <gpio number="55" direction="00" value="x"/>
+  <gpio number="56" direction="00" value="x"/>
+  <gpio number="57" direction="00" value="x"/>
+
+  <!-- L0-L7 -->
+  <gpio number="58" direction="00" value="x"/>
+  <gpio number="59" direction="00" value="x"/>
+  <gpio number="5A" direction="01" value="01"/>
+  <gpio number="5B" direction="00" value="x"/>
+  <gpio number="5C" direction="00" value="x"/>
+  <gpio number="5D" direction="01" value="00"/>
+  <gpio number="5E" direction="00" value="x"/>
+  <gpio number="5F" direction="00" value="x"/>
+
+  <!-- M0-M7 -->
+  <gpio number="60" direction="01" value="01"/>
+  <gpio number="61" direction="01" value="01"/>
+  <gpio number="62" direction="00" value="x"/>
+  <gpio number="63" direction="00" value="x"/>
+  <gpio number="64" direction="00" value="x"/>
+  <gpio number="65" direction="00" value="x"/>
+  <gpio number="66" direction="01" value="01"/>
+  <gpio number="67" direction="01" value="00"/>
+
+  <!-- N0-N7 -->
+  <gpio number="68" direction="00" value="x"/>
+  <gpio number="69" direction="00" value="x"/>
+  <gpio number="6A" direction="00" value="x"/>
+  <gpio number="6B" direction="00" value="x"/>
+  <gpio number="6C" direction="00" value="x"/>
+  <gpio number="6D" direction="00" value="x"/>
+  <gpio number="6E" direction="01" value="01"/>
+  <gpio number="6F" direction="00" value="x"/>
+
+  <!-- O0-O7 -->
+  <gpio number="70" direction="00" value="x"/>
+  <gpio number="71" direction="00" value="x"/>
+  <gpio number="72" direction="00" value="x"/>
+  <gpio number="73" direction="00" value="x"/>
+  <gpio number="74" direction="00" value="x"/>
+  <gpio number="75" direction="00" value="x"/>
+  <gpio number="76" direction="00" value="x"/>
+  <gpio number="77" direction="00" value="x"/>
+
+  <!-- P0-P7 -->
+  <gpio number="78" direction="00" value="x"/>
+  <gpio number="79" direction="00" value="x"/>
+  <gpio number="7A" direction="00" value="x"/>
+  <gpio number="7B" direction="00" value="x"/>
+  <gpio number="7C" direction="00" value="x"/>
+  <gpio number="7D" direction="00" value="x"/>
+  <gpio number="7E" direction="00" value="x"/>
+  <gpio number="7F" direction="00" value="x"/>
+
+  <!-- Q0-Q7 -->
+  <gpio number="80" direction="00" value="x"/>
+  <gpio number="81" direction="00" value="x"/>
+  <gpio number="82" direction="00" value="x"/>
+  <gpio number="83" direction="00" value="x"/>
+  <gpio number="84" direction="01" value="x"/>
+  <gpio number="85" direction="01" value="x"/>
+  <gpio number="86" direction="00" value="x"/>
+  <gpio number="87" direction="00" value="x"/>
+
+  <!-- R0-R7 -->
+  <gpio number="88" direction="01" value="01"/>
+  <gpio number="89" direction="00" value="x"/>
+  <gpio number="8A" direction="01" value="x"/>
+  <gpio number="8B" direction="00" value="x"/>
+  <gpio number="8C" direction="00" value="x"/>
+  <gpio number="8D" direction="00" value="x"/>
+  <gpio number="8E" direction="00" value="x"/>
+  <gpio number="8F" direction="00" value="x"/>
+
+  <!-- S0-S7 -->
+  <gpio number="90" direction="00" value="x"/>
+  <gpio number="91" direction="00" value="x"/>
+  <gpio number="92" direction="00" value="x"/>
+  <gpio number="93" direction="00" value="x"/>
+  <gpio number="94" direction="01" value="00"/>
+  <gpio number="95" direction="00" value="x"/>
+  <gpio number="96" direction="00" value="x"/>
+  <gpio number="97" direction="00" value="x"/>
+
+  <!-- T0-T7 -->
+  <gpio number="98" direction="00" value="x"/>
+  <gpio number="99" direction="00" value="x"/>
+  <gpio number="9A" direction="00" value="x"/>
+  <gpio number="9B" direction="00" value="x"/>
+  <gpio number="9C" direction="00" value="x"/>
+  <gpio number="9D" direction="00" value="x"/>
+  <gpio number="9E" direction="00" value="x"/>
+  <gpio number="9F" direction="00" value="x"/>
+
+  <!-- U0-U7 -->
+  <gpio number="A0" direction="00" value="x"/>
+  <gpio number="A1" direction="00" value="x"/>
+  <gpio number="A2" direction="01" value="01"/>
+  <gpio number="A3" direction="01" value="00"/>
+  <gpio number="A4" direction="00" value="x"/>
+  <gpio number="A5" direction="00" value="x"/>
+  <gpio number="A6" direction="00" value="x"/>
+  <gpio number="A7" direction="00" value="x"/>
+
+  <!-- V0-V7 -->
+  <gpio number="A8" direction="00" value="x"/>
+  <gpio number="A9" direction="00" value="x"/>
+  <gpio number="AA" direction="00" value="x"/>
+  <gpio number="AB" direction="00" value="x"/>
+  <gpio number="AC" direction="00" value="x"/>
+  <gpio number="AD" direction="00" value="x"/>
+  <gpio number="AE" direction="00" value="x"/>
+  <gpio number="AF" direction="00" value="x"/>
+
+  <!-- W0-W7 -->
+  <gpio number="B0" direction="00" value="x"/>
+  <gpio number="B1" direction="00" value="x"/>
+  <gpio number="B2" direction="00" value="x"/>
+  <gpio number="B3" direction="00" value="x"/>
+  <gpio number="B4" direction="00" value="x"/>
+  <gpio number="B5" direction="00" value="x"/>
+  <gpio number="B6" direction="00" value="x"/>
+  <gpio number="B7" direction="00" value="x"/>
+
+  <!-- X0-X7 -->
+  <gpio number="B8" direction="00" value="x"/>
+  <gpio number="B9" direction="00" value="x"/>
+  <gpio number="BA" direction="00" value="x"/>
+  <gpio number="BB" direction="00" value="x"/>
+  <gpio number="BC" direction="00" value="x"/>
+  <gpio number="BD" direction="00" value="x"/>
+  <gpio number="BE" direction="00" value="x"/>
+  <gpio number="BF" direction="00" value="x"/>
+
+  <!-- Y0-Y3 -->
+  <gpio number="C0" direction="01" value="01"/>
+  <gpio number="C1" direction="01" value="01"/>
+  <gpio number="C2" direction="01" value="00"/>
+  <gpio number="C3" direction="01" value="00"/>
+
+  <!-- Z0-Z7 -->
+  <gpio number="C4" direction="00" value="x"/>
+  <gpio number="C5" direction="00" value="x"/>
+  <gpio number="C6" direction="00" value="x"/>
+  <gpio number="C7" direction="00" value="x"/>
+  <gpio number="C8" direction="01" value="x"/>
+  <gpio number="C9" direction="01" value="x"/>
+  <gpio number="CA" direction="01" value="x"/>
+  <gpio number="CB" direction="01" value="x"/>
+
+  <!-- AA0-AA7 -->
+  <gpio number="CC" direction="01" value="x"/>
+  <gpio number="CD" direction="01" value="x"/>
+  <gpio number="CE" direction="01" value="x"/>
+  <gpio number="CF" direction="01" value="x"/>
+  <gpio number="D0" direction="01" value="x"/>
+  <gpio number="D1" direction="01" value="x"/>
+  <gpio number="D2" direction="01" value="x"/>
+  <gpio number="D3" direction="01" value="x"/>
+
+  <!-- AB0-AB3 -->
+  <gpio number="D4" direction="01" value="x"/>
+  <gpio number="D5" direction="01" value="x"/>
+  <gpio number="D6" direction="01" value="x"/>
+  <gpio number="D7" direction="01" value="x"/>
+
+</GpioList>
