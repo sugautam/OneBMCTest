@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- 
+Comment
+-->
+<SelList>
+  <sel contains="Sync Time from RTC" required="true" allowduplicates="true"/>
+  <sel contains="HDD1_Brd_Status" required="false" allowduplicates="true"/>
+  <sel contains="HDD2_Brd_Status" required="false" allowduplicates="true"/>
+  <sel contains="HDD3_Brd_Status" required="false" allowduplicates="true"/>
+  <sel contains="HDD4_Brd_Status" required="false" allowduplicates="true"/>
+</SelList>

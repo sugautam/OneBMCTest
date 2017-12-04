@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+BmcColdResetSelList XML defines required/optional SELs after BMC cold reset
+-->
+<SelList>
+  <sel contains="Event Log #8a Log Cleared 6f [02 ff ff]" required="true" allowduplicates="false"/>
+  <sel contains="Management Subsystem Health #ef Other FW HAL error 70 [a2 01 00]" required="true" allowduplicates="false"/>
+  <sel contains="Management Subsystem Health #ef Other FW HAL error 70 [a8 01 00]" required="true" allowduplicates="false"/>
+  <sel contains="Power Supply #84 Inserted 6f [00 ff ff]" required="false" allowduplicates="false"/>
+  <sel contains="Power Supply #12 Failure detected 6f [f1 0b 30]" required="false" allowduplicates="false"/>
+  <sel contains="Power Supply #13 Inserted 6f [c0 04 00]" required="false" allowduplicates="false"/>
+</SelList>

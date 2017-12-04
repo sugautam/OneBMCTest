@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestList duration="HH:MM:SS" iterations="1" stopOnFail="0">
+  <test name="VerifyGetDeviceId" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyChassisControl" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetProcessorInfo" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetMemoryInfo" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetPcieInfo" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetNicInfo" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetNicInfo" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetProcessorInfo" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetPcieInfo" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetMemoryInfo" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetBiosCode" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyMasterMuxedWriteRead" delay="0" iterations="0" stopOnFail="0"/>
+  <test name="VerifySetBiosConfig" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetBiosConfig" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetBiosConfigInfo" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetBiosVersion" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetFirmwareVersion" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetTpmPhysicalPresence" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetTpmPhysicalPresence" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetSystemGuid" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySendMessage" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetMessage" delay="0" iterations="0" stopOnFail="0"/>
+  <test name="VerifyMasterWriteRead" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetChassisStatus" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyChassisIdentify" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="BiosBmcFunctionalTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetPowerCycleInterval" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetSystemBootOptions" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetSensorThresholds" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetSensorReading" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetSensorType" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyReadFruData" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetSdr" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetSelEntry" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyAddSelEntry" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetSelTime" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetSelTime" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetGpio" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifySetGpio" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyGetChannelAuthenticationCapabilities" delay="0" iterations="0" stopOnFail="0"/>
+  <test name="VerifyGetSessionChallenge" delay="0" iterations="0" stopOnFail="0"/>
+  <test name="VerifyActivateSession" delay="0" iterations="0" stopOnFail="0"/>
+  <test name="VerifySetSessionPrivilegeLevel" delay="0" iterations="0" stopOnFail="0"/>
+  <test name="SelSensorTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyClearSel" delay="0" iterations="1" stopOnFail="0"/>
+  
+  <!-- Below functional test scripts have default iterations value of '0' (ie will not execute by default)-->
+  <test name="FirmwareDecompressionTest" delay="0" iterations="0" stopOnFail="0"/>
+  <test name="SshFunctionalTest" delay="0" iterations="0" stopOnFail="0"/>
+  <test name="VerifyBmcMacAddress" delay="0" iterations="0" stopOnFail="0"/>
+  <test name="DetectAndRemoveBmcHang" delay="0" iterations="0" stopOnFail="0"/>
+</TestList>

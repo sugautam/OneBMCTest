@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Derived from WCS-Software-BMC-G50.docx -->
+<GpioList>
+    <gpio signal="UBB_SMB_RST_N" direction="out"></gpio>
+    <gpio signal="PDB_SMB_RST_N" direction="out"></gpio>
+    <gpio signal="BLADE_ATT_LED_N" direction="out"></gpio>
+    <gpio signal="PWR_BTN_N" direction="in"></gpio>
+    <gpio signal="PWR_STA_LED_N" direction="out"></gpio>
+    <gpio signal="UID_BTN_N" direction="in"></gpio>
+    <gpio signal="UID_LED_N" direction="out"></gpio>
+    <gpio signal="SYS_THROTTLE_N" direction="in"></gpio>
+    <gpio signal="FM_GPIO4" direction="out"></gpio>
+    <gpio signal="GPU_OVERT_N" direction="out"></gpio>
+    <gpio signal="RM_SYS_THROTTLE_N" direction="in"></gpio>      
+    <gpio signal="FIO_RM_SYS_THROTTLE_N" direction="in"></gpio>
+    <gpio signal="PWR_ON_REQ_N" direction="in"></gpio>
+    <gpio signal="SYS_FORCE_PWR_OFF" direction="out"></gpio>
+    <gpio signal="SYS_READY_N" direction="out"></gpio>
+    <gpio signal="FM_GPIO1" direction="out"></gpio>
+    <gpio signal="FM_GPIO2" direction="out"></gpio>
+    <gpio signal="FM_GPIO3" direction="out"></gpio>
+    <gpio signal="BMC_BSC_ALT_N" direction="in"></gpio>
+    <gpio signal="BMC_SMB_4_RST_N" direction="out"></gpio>
+    <gpio signal="BMC_HB_LED" direction="out"></gpio>           
+</GpioList>
