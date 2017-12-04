@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestList duration="HH:MM:SS" iterations="1" stopOnFail="0">
+  <test name="BmcMeCompletionCodeSmokeTest" delay="0" iterations="1" stopOnFail="0"/>
+</TestList>

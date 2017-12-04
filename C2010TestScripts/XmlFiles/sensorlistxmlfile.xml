@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+This file contains the list all the sensors to be monitored using the IPMI interface sensor
+commands ('ipmiutil sensor', 'ipmiutil sensor -i <sensor_ID>').
+
+Each 'sensor' XML element gives the information regarding 1 sensor.
+The 'name' attribute shows the sensor name.
+The 'nominal' attribute shows the ideal (expected) sensor value.
+The 'tolerance' attribute shows the acceptable error margin for the sensor value. This is a
++/- percentage of the nominal value. In other words, the acceptable range of sensor values is
+[nominal - (tolerance/100) * nominal, nominal + (tolerance/100) * nominal]
+-->
+
+<SensorList>
+  <sensor name="PWM_1" nominal="50.0" tolerance="70"/>
+  <sensor name="HSC0 Input Power" nominal="100" tolerance="50"/>
+  <sensor name="HSC0 Input Volt" nominal="12.3" tolerance="10"/>
+  <sensor name="HSC0 Output Curr" nominal="8" tolerance="50"/>
+  <sensor name="HSC0 Temp" nominal="24" tolerance="40"/>
+  <sensor name="FPGA_HSC_Temp" nominal="35.0" tolerance="25"/>
+  <sensor name="FPGA_DIE_Temp" nominal="45.0" tolerance="25"/>
+  <sensor name="FPGA_AMB_Temp" nominal="35.0" tolerance="25"/>
+  <sensor name="P0VPP_ABC" nominal="2.56" tolerance="50"/>
+  <sensor name="P0VPP_DEF" nominal="2.56" tolerance="50"/>
+  <sensor name="P1VPP_GHJ" nominal="2.56" tolerance="50"/>
+  <sensor name="P1VPP_KLM" nominal="2.56" tolerance="50"/>
+  <sensor name="CPU0_VccIO" nominal="1.00" tolerance="50"/>
+  <sensor name="CPU1_VccIO" nominal="1.00" tolerance="50"/>
+  <sensor name="Temp_CPU0" nominal="29.0" tolerance="25"/>
+  <sensor name="Temp_PCH" nominal="39.0" tolerance="25"/>
+  <sensor name="Temp_Inlet" nominal="29.0" tolerance="25"/>
+  <sensor name="Temp_Outlet" nominal="31.0" tolerance="25"/>
+  <sensor name="Temp_CPU1" nominal="31.0" tolerance="25"/>
+  <sensor name="Temp_DIMM_A" nominal="27.0" tolerance="25"/>
+  <sensor name="Temp_DIMM_G" nominal="30.0" tolerance="25"/>
+  <sensor name="P3V3" nominal="3.37" tolerance="10"/>
+  <sensor name="P5V" nominal="5.10" tolerance="10"/>
+  <sensor name="P0VDDQ_ABC" nominal="1.23" tolerance="10"/>
+  <sensor name="P0VDDQ_DEF" nominal="1.23" tolerance="10"/>
+  <sensor name="P0_VccIN" nominal="1.82" tolerance="10"/>
+  <sensor name="P1_VccIN" nominal="1.82" tolerance="10"/>
+  <sensor name="P12V_AUX" nominal="12.42" tolerance="10"/>
+  <sensor name="P1VDDQ_GHJ" nominal="1.23" tolerance="10"/>
+  <sensor name="P1VDDQ_KLM" nominal="1.23" tolerance="10"/>
+  <sensor name="P5V_STBY" nominal="5.08" tolerance="10"/>
+  <sensor name="P1V05_STBY_PCH" nominal="1.07" tolerance="10"/>
+  <sensor name="PVNN_STBY_PCH" nominal="0.86" tolerance="10"/>
+  <sensor name="P3V3_STBY" nominal="3.35" tolerance="10"/>
+  <sensor name="VRDPCHVNN" nominal="0.84" tolerance="10"/>
+  <sensor name="PVDDQ_ABC Curr" nominal="0.80" tolerance="60"/>
+  <sensor name="PVDDQ_DEF Curr" nominal="1.60" tolerance="60"/>
+  <sensor name="PVDDQ_GHJ Curr" nominal="1.60" tolerance="60"/>
+  <sensor name="PVDDQ_KLM Curr" nominal="1.60" tolerance="60"/>
+  <sensor name="P3V_VBAT" nominal="3.19" tolerance="10"/>
+  <sensor name="P0_VSA" nominal="0.89" tolerance="10"/>
+  <sensor name="P1_VSA" nominal="0.85" tolerance="10"/>
+</SensorList>

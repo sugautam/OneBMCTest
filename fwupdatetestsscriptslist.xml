@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestList duration="HH:MM:SS" iterations="1" stopOnFail="0">
+  <test name="SocFlashBmcFwUpdateTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="YafuFlashBmcFwUpdateTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="YafuFlashCpldFwUpdateTest" delay="0" iterations="1" stopOnFail="0"/>
+  <test name="VerifyBackupBmcUpdateFromPrimary" delay="0" iterations="1" stopOnFail="0"/>
+</TestList>

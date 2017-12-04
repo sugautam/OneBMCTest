@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestList duration="00:20:00" iterations="1">
+  <test name="GetMACAddressTest" delay="0" iterations="1"/> 
+  <test name="BmcDecompressionTime" delay="0" iterations="1"/>
+  <test name="GPIOTest" delay="0" iterations="1"/>
+  <test name="BMCConsoleRedirectionTest" delay="0" iterations="1"/>
+  <test name="CheckFolderSize" delay="0" iterations="1"/>
+   <test name="AcPowerCycleStressTest" delay="0" iterations="0"/>
+</TestList>
