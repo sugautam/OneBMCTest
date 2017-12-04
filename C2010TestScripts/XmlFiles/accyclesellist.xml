@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- 
-AcCycleSelList XML defines required/optional SELs after AC Power Cycle of the compute blade
--->
-<SelList>
-  <sel contains="Event Log #8a Log Cleared 6f [02 ff ff]" required="true" allowduplicates="false"/>
-  <sel contains="OEM(d3) #ef - 6f [82 01 00]" required="true" allowduplicates="false"/>
-  <sel contains="OEM(d3) #ef - 6f [88 01 00]" required="true" allowduplicates="false"/>
-</SelList>
